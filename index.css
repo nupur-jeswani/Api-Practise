@@ -1,0 +1,274 @@
+* {
+    font-family: Montserrat;
+}
+
+.header-1 {
+    background-color: white;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 0;
+}
+
+.header-1 a {
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+.d1-content, .d2-content {
+    display: flex;
+    margin-right: 50px;
+    color: rgb(94, 94, 94);
+}
+
+.d2-content {
+    margin-right: 20px;
+}
+
+.contact-details, .dropdown {
+    display: inline;
+}
+
+.dropdown {
+    display: flex;
+}
+
+#dropdown-lang {
+    border-right: darkgray 2px solid;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    padding-right: 10px;
+}
+
+.dropbtn i {
+    opacity: 0.6;
+}
+
+#dropdown-content-lang, #dropdown-content-curr {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#dropdown-content-lang a, #dropdown-content-curr a {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-content-lang a:hover, #dropdown-content-curr a:hover  {
+    background-color: #ddd;
+}
+
+#dropdown-lang:hover #dropdown-content-lang, #dropdown-curr:hover #dropdown-content-curr  {
+    display: block;
+}
+
+#main-logo {
+    width: 85px;
+}
+
+.header-2 {
+    margin-top: 20px;
+    
+}
+
+#form-search {
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    border-radius: 30px;
+    font-size: 14px;
+    height: 38px;
+    margin-top: 13px;
+}
+
+.category-options {
+    padding-inline: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-right: 20px;
+    border: none;
+    border-right: 1px solid gainsboro;
+}
+
+#search-text {
+    size: "68";
+    border: none;
+}
+
+#search-button-header {
+    margin-left: 4px;
+    background-color: #484848;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+#search-button-header:hover {
+    background-color: #392061;
+}
+
+#nav-main {
+    background-color: #392061;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navbar-elements {
+    display: flex;
+    color: white;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.nav-item {
+    padding: 12px 30px;
+    margin-bottom: -11px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+}
+
+#signup {
+    text-align: left;
+    margin-left: 6rem;
+    background-color: #392061;
+    border: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#first-section {
+    margin-top: 70px;
+    width: auto;
+}
+
+.div1 {
+    background-color: #f5f5f5cb;
+    padding: 70px 60px;
+    width: auto;
+}
+
+.div1 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.div1 h6 {
+    color: rgb(107, 107, 107);
+    margin-bottom: 15px;
+}
+
+.div1 p {
+    color: darkgrey;
+    font-size: small;
+}
+
+.div1 button {
+    margin-top: 10px;
+    background-color: #392061;
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.div1 button:hover {
+    background-color: transparent;
+    color: #392061;
+}
+
+.div2 {
+    padding: 40px;
+}
+
+.div2 h5 {
+    font-size: 18px;
+}
+
+.product-options {
+    display: flex;
+    align-items: center;
+}
+
+.product-options img {
+    margin-right: 10px;
+}
+
+.product-options p {
+    font-size: 15px;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.heading h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.table-row-select {
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+    margin: 0 20px;
+}
+
+.table-row-select select {
+    padding: 5px;
+    margin: 10px;
+    color: rgb(107, 107, 107);
+    border-color: rgb(167, 167, 167);
+}
+
+.table-entry-search {
+    text-align: right;
+    margin: 10px;
+    font-size: 15px;
+    color: rgb(107, 107, 107);
+}
+
+.table-entry-search input {
+    padding: 3px;
+    margin-right: 20px;
+}
+
+.table-entry-search input::placeholder {
+    font-weight: 500;
+}
+
+.data-display table{
+    text-align: center;
+    border: 0;
+    padding: 15px 0;
+    width: 100%;
+    margin: 20px;
+}
+
+.data-display table th {
+    background-color: #392061;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.data-display table td {
+    padding: 20px;
+    border: rgb(228, 228, 228) 1px solid;
+}
